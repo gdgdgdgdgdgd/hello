@@ -1,2 +1,2 @@
 select * from tab;
-insert into "drink" VALUES(7, '2', '5');
+insert into "DRINK" VALUES (7, '2', '5');
