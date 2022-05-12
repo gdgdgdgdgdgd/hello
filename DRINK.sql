@@ -1,2 +1,10 @@
-select * from tab;
-insert into "DRINK" VALUES (7, '2', '5');
+create user c##voter identified by 1234;
+grant connect, resource, unlimited tablespace to c##voter;
+
+create table "VOTE"(
+"NUMBER" number primary key,
+"NAME" varchar2(100) not null,
+"VOTE" number
+);
+
+create sequence "SEQ_VOTE" start with increment by 1 nocache;

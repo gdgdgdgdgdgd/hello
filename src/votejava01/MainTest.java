@@ -6,16 +6,16 @@ import java.util.List;
 public class MainTest {
 
 	public static void main(String[] args) {
-		VoteDao dao = new VoteDao();
-		dao.updateVote(1, 5);
-		dao.insertVote("콜라");
-		List<VoteVo> ls = dao.selectVote();
-		
-		for(VoteVo tmp : ls) {
-			System.out.println(tmp);
-		}
-		
-		
+//		VoteDao dao = new VoteDao();
+//		dao.updateVote(1, 5);
+//		dao.insertVote("콜라");
+//		List<VoteVo> ls = dao.selectVote();
+//		
+//		for(VoteVo tmp : ls) {
+//			System.out.println(tmp);
+//		}
+//		
+//		
 
 	}
 
