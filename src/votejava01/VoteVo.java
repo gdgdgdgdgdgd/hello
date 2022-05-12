@@ -7,6 +7,17 @@ public class VoteVo {
 	private long vote;
 	
 	
+	public VoteVo() {
+		
+	}
+	
+	public VoteVo(long number, String name, long vote) {
+		super();
+		this.number = number;
+		this.name = name;
+		this.vote = vote;
+	}
+	
 	public long getNumber() {
 		return number;
 	}
@@ -25,6 +36,7 @@ public class VoteVo {
 	public void setVote(long vote) {
 		this.vote = vote;
 	}
+	
 	@Override
 	public String toString() {
 		return "VoteVo [number=" + number + ", name=" + name + ", vote=" + vote + "]";
