@@ -1,6 +1,8 @@
 create user c##voter identified by 1234;
 grant connect, resource, unlimited tablespace to c##voter;
 
+conn c##voter/1234;
+
 create table "VOTE"(
 "NUMBER" number primary key,
 "NAME" varchar2(100) not null,
