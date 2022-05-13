@@ -7,4 +7,4 @@ create table "VOTE"(
 "VOTE" number
 );
 
-create sequence "SEQ_VOTE" start with increment by 1 nocache;
+create sequence "SEQ_VOTE" start with 1 increment by 1 nocache;
